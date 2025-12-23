@@ -10,7 +10,7 @@ import { NewsItem } from '@/lib/mockData';
 export default function Home() {
   const news = newsData as unknown as NewsItem[];
   return (
-    <main className="min-h-screen bg-gray-50/50">
+    <main className="min-h-screen bg-gray-50/50 pt-20">
       <Header />
 
       <SourceSection />
