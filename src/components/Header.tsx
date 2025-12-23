@@ -1,5 +1,3 @@
-
-import Link from 'next/link';
 import { Zap } from 'lucide-react';
 
 export function Header() {
@@ -10,7 +8,7 @@ export function Header() {
                     <div className="w-8 h-8 bg-black rounded-lg flex items-center justify-center text-white">
                         <Zap size={20} fill="currentColor" />
                     </div>
-                    <span className="font-bold text-xl tracking-tight">DailyAITools</span>
+                    <span className="font-bold text-xl tracking-tight">DailyAINews</span>
                 </div>
 
                 <button className="bg-black text-white px-5 py-2 rounded-full text-sm font-medium hover:bg-gray-800 transition-colors">

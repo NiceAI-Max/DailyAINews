@@ -24,6 +24,8 @@ export function NewsCard({ item }: NewsCardProps) {
     return (
         <Link
             href={item.url}
+            target="_blank"
+            rel="noopener noreferrer"
             className="group block h-full bg-white border border-gray-200 rounded-2xl p-6 transition-all duration-300 hover:-translate-y-1 hover:shadow-xl hover:border-gray-300 flex flex-col"
         >
             <div className="flex items-center justify-between mb-4">

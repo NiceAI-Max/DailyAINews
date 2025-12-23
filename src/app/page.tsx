@@ -1,20 +1,23 @@
 
 import { Header } from '@/components/Header';
-import { Hero } from '@/components/Hero';
 import { NewsCard } from '@/components/NewsCard';
+import { SourceSection } from '@/components/SourceSection';
+import { ResearchPathSection } from '@/components/ResearchPathSection';
 import { Footer } from '@/components/Footer';
-import { mockNews } from '@/lib/mockData';
+import newsData from '@/data/news_data.json';
+import { NewsItem } from '@/lib/mockData';
 
 export default function Home() {
+  const news = newsData as unknown as NewsItem[];
   return (
     <main className="min-h-screen bg-gray-50/50">
       <Header />
 
-      <Hero />
+      <SourceSection />
 
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-20">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {mockNews.map((item) => (
+          {news.map((item) => (
             <NewsCard key={item.id} item={item} />
           ))}
         </div>
@@ -26,7 +29,9 @@ export default function Home() {
         </div>
       </section>
 
+      <ResearchPathSection />
+
       <Footer />
-    </main>
+    </main >
   );
 }

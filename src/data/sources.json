@@ -1,0 +1,72 @@
+[
+    {
+        "id": "github",
+        "name": "GitHub Trending",
+        "description": "全球最大的开源代码库",
+        "url": "https://github.com/trending",
+        "icon": "Github"
+    },
+    {
+        "id": "hackernews",
+        "name": "Hacker News",
+        "description": "高质量的极客新闻社区",
+        "url": "https://news.ycombinator.com/",
+        "icon": "Newspaper"
+    },
+    {
+        "id": "huggingface",
+        "name": "Hugging Face",
+        "description": "AI 模型与数据集的聚集地",
+        "url": "https://huggingface.co/papers",
+        "icon": "Brain"
+    },
+    {
+        "id": "producthunt",
+        "name": "Product Hunt",
+        "description": "发现最新最好的科技产品",
+        "url": "https://www.producthunt.com/",
+        "icon": "Rocket"
+    },
+    {
+        "id": "arxiv",
+        "name": "Arxiv AI",
+        "description": "最新 AI 学术论文首发地",
+        "url": "https://arxiv.org/list/cs.AI/recent",
+        "icon": "FileText"
+    },
+    {
+        "id": "tldr",
+        "name": "TLDR AI",
+        "description": "每日 AI 新闻速递邮件",
+        "url": "https://tldr.tech",
+        "icon": "Mail"
+    },
+    {
+        "id": "twitter",
+        "name": "X (Tech Twitter)",
+        "description": "科技圈实时动态与讨论",
+        "url": "https://twitter.com/search?q=AI&f=top",
+        "icon": "Twitter"
+    },
+    {
+        "id": "rundown",
+        "name": "The Rundown AI",
+        "description": "AI 领域精选新闻简报",
+        "url": "https://www.therundown.ai/",
+        "icon": "Zap"
+    },
+    {
+        "id": "alphasignal",
+        "name": "AlphaSignal",
+        "description": "AI 研究与工程精选内容",
+        "url": "https://alphasignal.ai/",
+        "icon": "Signal"
+    },
+    {
+        "id": "ai4yes",
+        "name": "AI视野",
+        "description": "工具导航 + AI 行业资讯",
+        "url": "https://www.ai4yes.com/",
+        "icon": "Eye"
+    }
+]
